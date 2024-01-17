@@ -15,6 +15,8 @@
 		EA00020B2B3CA16E00E3222C /* FirstWatchApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00020A2B3CA16E00E3222C /* FirstWatchApp_Watch_AppTests.swift */; };
 		EA0002152B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0002142B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITests.swift */; };
 		EA0002172B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0002162B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITestsLaunchTests.swift */; };
+		EA0F9A9B2B448FC3005F3FA0 /* ResetCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0F9A9A2B448FC3005F3FA0 /* ResetCountView.swift */; };
+		EA0F9A9E2B449B57005F3FA0 /* SwiftUI Apple Watch Decimal Pad in Frameworks */ = {isa = PBXBuildFile; productRef = EA0F9A9D2B449B57005F3FA0 /* SwiftUI Apple Watch Decimal Pad */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		EA0002102B3CA16E00E3222C /* FirstWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirstWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0002142B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWatchApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		EA0002162B3CA16E00E3222C /* FirstWatchApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWatchApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA0F9A9A2B448FC3005F3FA0 /* ResetCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0F9A9E2B449B57005F3FA0 /* SwiftUI Apple Watch Decimal Pad in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +124,7 @@
 			children = (
 				EA0001F92B3CA16D00E3222C /* FirstWatchAppApp.swift */,
 				EA0001FB2B3CA16D00E3222C /* ContentView.swift */,
+				EA0F9A9A2B448FC3005F3FA0 /* ResetCountView.swift */,
 				EA0001FD2B3CA16E00E3222C /* Assets.xcassets */,
 				EA0001FF2B3CA16E00E3222C /* Preview Content */,
 			);
@@ -184,6 +189,9 @@
 			dependencies = (
 			);
 			name = "FirstWatchApp Watch App";
+			packageProductDependencies = (
+				EA0F9A9D2B449B57005F3FA0 /* SwiftUI Apple Watch Decimal Pad */,
+			);
 			productName = "FirstWatchApp Watch App";
 			productReference = EA0001F42B3CA16D00E3222C /* FirstWatchApp Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +267,9 @@
 				Base,
 			);
 			mainGroup = EA0001E72B3CA16D00E3222C;
+			packageReferences = (
+				EA0F9A9C2B449B57005F3FA0 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */,
+			);
 			productRefGroup = EA0001EF2B3CA16D00E3222C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -310,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0001FC2B3CA16D00E3222C /* ContentView.swift in Sources */,
+				EA0F9A9B2B448FC3005F3FA0 /* ResetCountView.swift in Sources */,
 				EA0001FA2B3CA16D00E3222C /* FirstWatchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstWatchApp Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 6SX9YK8J7S;
+				DEVELOPMENT_TEAM = 7NX389PC9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FirstWatchApp;
@@ -485,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mellinka.FirstWatchApp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = mellinkarl.FirstWatchApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -504,7 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstWatchApp Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 6SX9YK8J7S;
+				DEVELOPMENT_TEAM = 7NX389PC9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FirstWatchApp;
@@ -515,7 +527,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mellinka.FirstWatchApp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = mellinkarl.FirstWatchApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -693,6 +705,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA0F9A9C2B449B57005F3FA0 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ApplebaumIan/SwiftUI-Apple-Watch-Decimal-Pad.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA0F9A9D2B449B57005F3FA0 /* SwiftUI Apple Watch Decimal Pad */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0F9A9C2B449B57005F3FA0 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */;
+			productName = "SwiftUI Apple Watch Decimal Pad";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA0001E82B3CA16D00E3222C /* Project object */;
 }
